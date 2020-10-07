@@ -34,7 +34,7 @@ public class AppTest
     {
         App.main(null);
         try {
-            assertEquals("Hello World - checked Jenkns auto build on change" + System.getProperty("line.separator"), outContent.toString());
+            assertEquals("Hello World! - checked Jenkns auto build on change" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
             fail("\"message\" is not \"Hello World! - checked Jenkns auto build on change\"");
         }
